@@ -1,0 +1,7 @@
+.build
+xcuserdata/
+project.xcworkspace/
+*.xcodeproj
+.build/
+.env
+.image/
