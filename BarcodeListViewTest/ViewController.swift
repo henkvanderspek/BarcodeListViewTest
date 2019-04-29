@@ -51,6 +51,7 @@ extension ViewController: UITableViewDataSource {
         return barcodeLists.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // We don't care about reusability for this type
         return BarcodeListTableViewCell(barcodeList: barcodeLists[indexPath.item])
     }
 }

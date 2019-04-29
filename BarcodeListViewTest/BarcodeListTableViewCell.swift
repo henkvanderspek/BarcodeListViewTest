@@ -89,10 +89,6 @@ private class BarcodeItemCollectionView: UICollectionView {
     private let barcodeList: BarcodeList
     private let layout: Layout
     
-    private lazy var heightConstraint: NSLayoutConstraint = {
-        return heightAnchor.constraint(equalToConstant: 0.0)
-    }()
-    
     private class Layout: UICollectionViewFlowLayout {
         private let barcodeList: BarcodeList
         init(barcodeList: BarcodeList) {
